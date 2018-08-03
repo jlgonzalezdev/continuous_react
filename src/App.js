@@ -8,7 +8,7 @@ class App extends Component {
 
 
   sum(a,b){
-    return a+b+1; 
+    return a+b; 
   }
 
 
