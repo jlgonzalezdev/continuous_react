@@ -4,10 +4,12 @@ import './App.css';
 
 class App extends Component {
 
-  colors = ['white','yellow','black','purple','orange','green'];
+  colors = ['white','yellow','black','purple','orange','green','gray'];
 
 
-
+  sum(a,b){
+    return a+b+1; 
+  }
 
 
   render() {
