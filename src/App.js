@@ -16,11 +16,11 @@ class App extends Component {
       return <p>{c}</p>;
     });
 
-    var p2 = this.colors.map((c)=>{
+    var p = this.colors.map((c)=>{
       return <p>{c}</p>;
     });
 
-    var p3 = this.colors.map((c)=>{
+    var p = this.colors.map((c)=>{
       return <p>{c}</p>;
     });
 
@@ -33,7 +33,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           Continuous Integration app, Working with CI
-          {p}{p2}{p3}         
+          {p}         
         </p>
       </div>
     );
